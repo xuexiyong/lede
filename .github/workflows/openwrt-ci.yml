@@ -68,6 +68,8 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
  
+      - name: Generate configuration file
+        run: make defconfig
 
           cat >> .config <<EOF
           CONFIG_TARGET_x86=y
