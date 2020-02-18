@@ -131,7 +131,7 @@ jobs:
           #CONFIG_PACKAGE_kmod-usb-uhci=y
           #CONFIG_PACKAGE_kmod-usb2=y
           #CONFIG_PACKAGE_kmod-usb2-pci=y
-          #CONFIG_PACKAGE_kmod-usb3=y
+          CONFIG_PACKAGE_kmod-usb3 is not set
           CONFIG_PACKAGE_luci-app-accesscontrol=y
           # CONFIG_PACKAGE_luci-app-adblock is not set
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
