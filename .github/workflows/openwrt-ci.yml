@@ -54,7 +54,7 @@ jobs:
           
       - name: soft
         run: |
-          cd package
+          cd package/lean
           mkdir openwrt-package
           cd openwrt-package
           git clone https://github.com/frainzy1477/luci-app-clash.git
