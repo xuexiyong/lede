@@ -74,8 +74,6 @@ jobs:
           rm -f ./.config*
           touch ./.config
 
-     #- name: Generate configuration file
-     #  run: make defconfig
           cat >> .config <<EOF
           CONFIG_TARGET_x86=y
           CONFIG_TARGET_x86_64=y
