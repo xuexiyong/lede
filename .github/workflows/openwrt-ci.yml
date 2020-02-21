@@ -13,9 +13,9 @@ on:
  # schedule:
   #  - cron: 0 20 * * *
       
-  push:
-    branches: 
-     - master
+  #push:
+    #branches: 
+     #- master
 
 jobs:
 
@@ -62,6 +62,7 @@ jobs:
           git clone https://github.com/rosywrt/luci-theme-rosy.git
           git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
           git clone https://github.com/Aslin-Ameng/luci-app-access-control.git
+          git clone https://github.com/Kiougar/luci-wrtbwmon.git
 
       - name: Update feeds
         run: |
