@@ -59,10 +59,10 @@ jobs:
           cd openwrt-package
           git clone https://github.com/frainzy1477/luci-app-clash.git
           # git clone https://github.com/hong0980/luci-app-passwall.git
-          git clone https://github.com/rosywrt/luci-theme-rosy.git
-          git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
-          git clone https://github.com/Aslin-Ameng/luci-app-access-control.git
-          git clone https://github.com/Kiougar/luci-wrtbwmon.git
+          # git clone https://github.com/rosywrt/luci-theme-rosy.git
+          # git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
+          # git clone https://github.com/Aslin-Ameng/luci-app-access-control.git
+          # git clone https://github.com/Kiougar/luci-wrtbwmon.git
 
       - name: Update feeds
         run: |
