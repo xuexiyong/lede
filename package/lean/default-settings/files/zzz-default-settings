@@ -4,6 +4,7 @@ uci set luci.main.lang=zh_cn
 uci commit luci
 
 uci set system.@system[0].timezone=CST-8
+uci set system.@system[0].hostname=Qoo
 uci set system.@system[0].zonename=Asia/Shanghai
 uci commit system
 
@@ -26,6 +27,7 @@ sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/p910nd.lua
 sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/usb_printer.lua
 sed -i 's/\"services\"/\"nas\"/g' /usr/lib/lua/luci/controller/xunlei.lua
 sed -i 's/services/nas/g'  /usr/lib/lua/luci/view/minidlna_status.htm
+sed -i 's/IMG_PREFIX:=openwrt/IMG_PREFIX:=$(shell date +%Y%m%d-%H%M%S)-openwrt/g' include/image.mk
 
 ln -sf /sbin/ip /usr/bin/ip
 
