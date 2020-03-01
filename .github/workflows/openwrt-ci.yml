@@ -96,7 +96,7 @@ jobs:
           # CONFIG_PACKAGE_autosamba is not set
           CONFIG_PACKAGE_bash=y
           # CONFIG_PACKAGE_bind-client=y
-          CONFIG_PACKAGE_bind-libs=y
+          # CONFIG_PACKAGE_bind-libs=y
           CONFIG_PACKAGE_ca-bundle=y
           CONFIG_PACKAGE_curl=y
           CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
